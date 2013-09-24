@@ -1,7 +1,39 @@
 <html>
 <head>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 </head>
 <body>
-Hello World!
+<iframe id="req-form" src="https://docs.google.com/forms/d/1jShmwCRsdlbXT0_rRnQDb6p6jOAp5Jm9w6ohVtS6IiQ/viewform?embedded=true" width="760" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+<div>
+<input id="btn-download" type="button" value="Download" style="margin:4px; padding:20px; font-size:20px" disabled="disabled"/>
+<script type="text/javascript">
+$(document).ready(function(){
+	function getParameterByName(name) {
+    	name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    	var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    	return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+	}
+	
+	var loaded = 0;
+	var filename = getParameterByName("file");
+	
+	
+	
+	$("#req-form").load(function(){
+		loaded ++;
+		if(loaded >=2 ) {
+			$("#btn-download").prop("disabled", false);
+		}
+	});
+	
+	$("#btn-download").bind("click", function(){
+		
+		window.location = "http://masc.cs.gmu.edu/wiki/uploads/" + filename;
+	});
+});
+</script>
+</div>
 </body>
 </html>
