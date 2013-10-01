@@ -13,11 +13,40 @@
 <tr>
 <td>
 	<div id="container">
+		<div id="div-pos"></div>
 		<canvas id="canvas" width="640" height="640">
 	<div>
 </td>
 <td width="200px">
 	<div>
+		<div>
+			<input type="radio" name="fun" id="rdo-input-line" value="il" checked>
+			<label for="rdo-input-line">Input Line</label> <br />
+			<ul id="ul-input-line">
+				<li>
+					<input type="radio" name="crease-type" id="rdo-il-mountain" value='m' checked>
+					<label for="rdo-il-mountain">Mountain</label>
+				</li>
+				<li>
+					<input type="radio" name="crease-type" id="rdo-il-valley" value='v'>
+					<label for="rdo-il-valley">Valley</label>
+				</li>
+			
+				<li>
+					<input type="radio" name="crease-type" id="rdo-il-aux" value='a'>
+					<label for="rdo-il-aux">Aux</label>
+				</li>				
+			
+			</ul>
+			
+			<input type="radio" name="fun" id="rdo-select-line" value="sl">
+			<label for="rdo-select-line">Select Line</label> <br />
+			<ul id ="sl-update" style="display:none">
+				<li>Angle : <input type="text" id="txt-crease-angle" style="width:40px"></li>	
+			</ul>
+			<input type="radio" name="fun" id="rdo-delete-line" value="dl">
+			<label for="rdo-delete-line">Delete Line</label> <br />
+		</div>
 		<input type="checkbox" id="chk-show-grid" checked>Show Grid</input>
 		<br/>
 		Grid Div:
@@ -25,265 +54,6 @@
 	<div> 
 </td>
 </canvas>
-<script>
-	var PAD = 20; 
-	var PS = 600;
-	var WIDTH = 600 + 2*PAD, HEIGHT = 600 + 2*PAD;
-	var OS = PS / 2;
-	var canvas = document.getElementById('canvas');
-	var ctx = canvas.getContext ? canvas.getContext('2d') : NULL;
-	var vertices = [];
-	var Creases = [];
-	var config = {
-		showGrid : true,
-		grids : 6
-	};
-	var state = {
-		drawing : false,
-		highlighted : null			// high lighted Point
-	}
-	
-	function Point(x, y) {
-		this.x = x;
-		this.y = y;
-	}
-	
-	Point.prototype.clone = function() {
-		return new Point(this.x, this.y);
-	}
-	
-	Point.prototype.dist = function(pt) {
-		return Math.sqrt((this.x - pt.x)*(this.x - pt.x) + (this.y - pt.y)*(this.y - pt.y));
-	}
-	
-	
-	function Crease(type, v1, v2, angle) {
-		this.type = type;
-		this.v1 = v1;
-		this.v2 = v2;
-		this.angle = angle ? angle : 0;
-		if(this.type == 'm')
-			this.angle = 180;
-		else if(this.type == 'v')
-			this.angle = -180;
-	}
-	
-	function writeMessage(canvas, message) {
-		  ctx.font = '18pt Calibri';
-		  ctx.fillStyle = 'black';
-		  ctx.fillText(message, 30, 30);
-    }
-	
-	
-	function getMousePos(canvas, evt) {
-		var rect = canvas.getBoundingClientRect();
-		return new Point(
-			evt.clientX - rect.left - PAD - OS,
-			evt.clientY - rect.top - PAD - OS);
-    }
-    
- 	function cloestPoint(pt) {
- 		var min = 10.0;
- 		var cp = null;
-  		for(var i=0;i<vertices.length;i++)
-  		{
-  			var v = vertices[i];
-  			if(v.dist(pt) < min) {
-  				min = v.dist(pt);
-  				cp = v;
-  			}
-  		}
-  		
-  		var gridSize = PS / config.grids;
-	  	for(var i=0;i<=PS;i+=gridSize)
-	  	for(var j=0;j<=PS;j+=gridSize)
-	  	{
-	  		var v = new Point(j - OS, i - OS);
-	  		if (v.dist(pt) < min) {
-  				min = v.dist(pt);
-  				cp = v;
-  			}
-	  	}
-  		
-  		return cp;
-    }
-	
-	
-	canvas.addEventListener('mousemove', function(evt) {
-		var mousePos = getMousePos(canvas, evt);
-		var message = 'Mouse position: ' + mousePos.x + ',' + mousePos.y;
-		  
-		if(state.drawing) {
-			state.hl2 = cloestPoint(mousePos);
-			state.pos2 = state.hl2 ? state.hl2 : mousePos;
-		}
-		else {
-			state.hl1 = cloestPoint(mousePos);
-		}
-		  
-		render();
-		//writeMessage(canvas, message);
-    }, false);
-    	
-    	
-    canvas.addEventListener('click', function(evt){ 
-    	var mousePos = getMousePos(canvas, evt);
-		if (!state.drawing) {
-			state.drawing = true;
-			state.pos1 = state.pos2 = state.hl1 ? state.hl1 : mousePos;
-		} else {
-			state.pos2 = state.hl2 ? state.hl2 : mousePos;
-			addCrease('m', state.pos1, state.pos2);
-			state.drawing = false;
-			state.pos1 = null;
-			state.pos2 = null;
-			state.hl1 = null;
-			state.hl2 = null;
-		}
-		
-		render();
-    });
-    
-    
-    function addCrease(type, pos1, pos2) {
-    	var v1 = new Point(pos1.x, pos1.y);
-    	var v2 = new Point(pos2.x, pos2.y);
-    	vertices.push(v1);
-    	vertices.push(v2);
-    	var c = new Crease(type, v1, v2);
-    	Creases.push(c);
-    }
-    
-    
-    // =================================================================
-    // events
-    // =================================================================
-    
-    $("#chk-show-grid").change(function() {	
-    	config.showGrid = $(this).is(':checked');
-    	render();
-    });
-    
-    $("#txt-grid-div").val(config.grids).change(function(){
-    	var grids = parseInt($(this).val());
-    	if(grids < 0 || grids > 100) grids = 4;
-    	config.grids = grids;
-    	render();
-    });
-    
-    
-    function init_Creases() {
-    	var v1 = new Point(-OS, OS);
-    	var v2 = new Point(OS, OS);
-    	var v3 = new Point(OS, -OS);
-    	var v4 = new Point(-OS, -OS);
-    	
-    	vertices.push(v1);
-    	vertices.push(v2);
-    	vertices.push(v3);
-    	vertices.push(v4);
-    	
-    	var c1 = new Crease('b', v1 , v2);
-    	var c2 = new Crease('b', v2 , v3);
-    	var c3 = new Crease('b', v3 , v4);
-    	var c4 = new Crease('b', v4 , v1);
-    	
-    	Creases.push(c1);
-    	Creases.push(c2);
-    	Creases.push(c3);
-    	Creases.push(c4);
-    }
-	
-	// ===============================================================
-	// draw stuff
-	// ===============================================================
-	function getColorByCreaseType(type) {
-		if(type == 'm') return 'rgb(255,0,0)';
-		if(type == 'v') return 'rgb(0,0,255)';
-		if(type == 'a') return 'rgb(200,200,200)';
-		if(type == 'hl') return 'rgb(0,255,0)';
-		return 'rgb(0,0,0)'; // default color
-	}
-	
-	
-	function drawLine(x0,y0,x1,y1){
-		ctx.beginPath();
-		ctx.moveTo(x0,y0);
-		ctx.lineTo(x1,y1);
-		ctx.closePath();
-    	ctx.stroke();
-	}
-	
-	function drawLineV2(v1, v2) {
-		if(v1 == null || v2 == null) return;
-		drawLine(v1.x + OS + PAD, v1.y + OS + PAD, v2.x + OS + PAD, v2.y + OS + PAD);
-	}
-	
-	function drawBoard() {
-		ctx.fillStyle = "rgba(250, 250, 170, 1)";
-		  ctx.fillRect (PAD, PAD, PS, PS);
-		  
-	}
-	
-	function drawGrid() {
-		ctx.strokeStyle = "rgba(200, 200, 200, 0.5)";
-		var gridSize = PS / config.grids;
-	  	for(var i=0;i<=PS;i+=gridSize)
-	  	{
-	  		drawLine(PAD, i+PAD, PS+PAD, i+PAD);
-	  		drawLine(i+PAD, PAD, i+PAD, PS+PAD);
-	  	}
-	}
-	
-	
-	function drawCrease(c) { 
-		ctx.strokeStyle = getColorByCreaseType(c.type)	
-		drawLineV2(c.v1, c.v2);
-	}
-	
-	function drawCreases() {
-		for(var i=0;i<Creases.length;i++)
-			drawCrease(Creases[i]);
-	}
-	
-	function drawPoint(v, type) {
-		ctx.beginPath();
-		ctx.arc(v.x + OS + PAD, v.y + OS + PAD, type == 'hl' ? 5 : 3, 0, 2 * Math.PI, false);
-		ctx.fillStyle = getColorByCreaseType(type);
-		ctx.fill();
-		ctx.lineWidth = 1;
-		ctx.strokeStyle = '#003300';
-		ctx.stroke();
-	}
-	
-	function drawVertices() {
-		for(var i=0;i<vertices.length;i++)
-			drawPoint(vertices[i]);
-	}
-	
-	function drawDrawing() {
-		var c = new Crease('m', state.pos1, state.pos2);
-		drawCrease(c);
-		var v = new Point(state.pos1.x, state.pos1.y);
-		drawPoint(v, 'm');
-	}
-	
-	function render()
-	{
-		ctx.clearRect(0, 0, canvas.width, canvas.height);
-		drawBoard();
-		if(config.showGrid) drawGrid();	
-		drawCreases();
-		drawVertices();
-		if(state.drawing) drawDrawing();
-		if(state.hl1) drawPoint(state.hl1, 'hl');
-		if(state.hl2) drawPoint(state.hl2, 'hl');
-	}
-	
-	// ================================================================
-	
-	init_Creases();
-	render();	
-</script>
+<script src="opd.js"></script>
 </body>
 </html>
