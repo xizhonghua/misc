@@ -46,7 +46,7 @@ class Env {
 public:
 	Env();
 	virtual ~Env();
-	void Init(const vector<double>& start, const vector<double> goal) { this->m_start = start; this->m_goal = goal;}
+	void Init(double env_width, double env_height, const vector<double>& start, const vector<double> goal);
 	void AddObstacle(const c_ply& ply);
 	void SetRobot(const TwoLinkRobot& robot);
 	bool IsValid(const vector<double>& state);

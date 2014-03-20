@@ -367,7 +367,7 @@ int main(int argc, char** argv)
 		vector<double> start_cfg = {start.x, start.y, LimitAngle(start.t1), LimitAngle(start.t2)};
 		vector<double> goal_cfg =  {goal.x, goal.y, LimitAngle(goal.t1), LimitAngle(goal.t2)};
 
-		Env::Instance()->Init(start_cfg, goal_cfg);
+		Env::Instance()->Init(env_width, env_height, start_cfg, goal_cfg);
 		Env::Instance()->GetRobot().Init(l1,l2,start_cfg);
 
 

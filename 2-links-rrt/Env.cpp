@@ -78,6 +78,23 @@ Env::Env() {
 	this->m_bounds = {-10, -10, 520, 520};
 }
 
+void Env::Init(double env_width, double env_height, const vector<double>& start, const vector<double> goal)
+{
+	this->m_bounds = { -10, -10, env_width+10, env_height+10 };
+
+	c_ply bb(c_ply::PIN);
+	bb.beginPoly();
+	bb.addVertex(-10, -10);
+	bb.addVertex(-10, env_height + 10);
+	bb.addVertex(env_width + 10, env_height + 10);
+	bb.addVertex(env_width + 10, -10);
+	bb.endPoly(false);
+
+	this->AddObstacle(bb);
+
+	this->m_start = start; this->m_goal = goal;
+}
+
 Env::~Env() {
 	// TODO Auto-generated destructor stub
 }
