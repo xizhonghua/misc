@@ -7,7 +7,7 @@
 #include "GL/gli.h"
 #include "GL/gliDump.h"
 #include "Vector.h"
-#include "RRT.h"
+#include "Env.h"
 using namespace mathtool;
 using namespace std;
 
@@ -20,10 +20,10 @@ void DisplayBackground(void);
 void DrawLine(const Vector3d& p1, const Vector3d& p2);
 
 
-void DrawTree(const RRT_TREE& tree);
-void DrawPolygons(RRT_OBJS& rects);
-void DrawPath(const PATH& path);
-void DrawRobot(RRT_ROBOT& robot);
+//void DrawTree(const RRT_TREE& tree);
+void DrawPolygons(vector<c_ply>& rects);
+void DrawPath(const vector<vector<double> >& path);
+void DrawRobot(TwoLinkRobot& robot, const vector<double>& state);
 void DrawAll();
 
 void Display();

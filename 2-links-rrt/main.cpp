@@ -12,7 +12,6 @@
 #include <string>
 #include <cctype>
 #include "main.h"
-#include "KinematicChainBenchmark.h"
 
 int seed;
 
@@ -134,14 +133,24 @@ void readInput(const string& filename)
 			ply.endPoly(false);
 			//cout<<"polygon size = "<<ply.getSize()<<" area = "<<ply.getArea()<<" type = "<<ply.getType()<<endl;
 
-			planner->addObj(ply);
+			//planner->addObj(ply);
 			num_of_polygons--;
+
+			Env::Instance()->AddObstacle(ply);
 		}
 		//
 		//sstream
 	}
 
     //assert(planner->getPolygons().size()==num_of_polygons+1); //+1 for the bounding box
+}
+
+double LimitAngle(double& v)
+{
+	v = v/180.0*PI;
+	if(v > PI) v = 2*PI - v;
+
+	return v;
 }
 
 int parseArg(int argc, char** argv)
@@ -162,6 +171,7 @@ int parseArg(int argc, char** argv)
 		start.y = atof(argv[3]);
 		start.t1 = atof(argv[4]);
 		start.t2 = atof(argv[5]);
+
 
 		goal.x = atof(argv[6]);
 		goal.y = atof(argv[7]);
@@ -267,13 +277,67 @@ int parseArg(int argc, char** argv)
 	return true;
 }
 
+//int main(int argc, char** argv)
+//{
+//	if(!parseArg(argc, argv))
+//	{
+//		cout<<"Usage: \t"<<argv[0]<<" input_file [x1 y1 t11 t12 x2 y2 t21 t22 l1 l2 scale dx dy mehtod seed #samples stepsize]"<<endl;
+//		return 0;
+//	}
+//	else
+//	{
+//		planner=NULL;
+//
+//		if(method=="rrt" || method=="RRT" || method=="Rrt")
+//			//float w, float h, float tr, float rr, unsigned int max_sample, float expand_step, float bias, float close_to_goal
+//			planner = new RRT(env_width, env_height, env_TR, env_RR, max_sample_size, rrt_step_size,rrt_bias,rrt_close_to_goal);
+//		else if(method=="prm" || method=="PRM" || method=="Prm")
+//			planner = new PRM(env_width, env_height, env_TR, env_RR, max_sample_size,prm_closest_k);
+//		else if(method=="gauss" || method=="GAUSS" || method=="Gauss")
+//			planner = new GaussianPRM(env_width, env_height, env_TR, env_RR, max_sample_size,prm_closest_k,gauss_mean_d, gauss_std);
+//
+//		if(planner==NULL)
+//			return 1;
+//
+//		readInput(filename);
+//
+//		srand(seed);
+//
+//		// init robot
+//		planner->getRobot().init(l1, l2, start);
+//
+//		// find the path
+//		start = planner->to_parametric(start);
+//		goal = planner->to_parametric(goal);
+//
+//		if(planner->findPath(start, goal))
+//		{
+//			planner->getRobot().setCFG(start);
+//250,360,0,150
+//			vector<CFG> path = planner->getPath();
+//
+//			cout<<"- Path found (";
+//
+//			/*for(PIT it=path.begin(); it!=path.end(); ++it) {
+//				cout<<*it<<endl;
+//			}*/
+//
+//			cout<<"length = "<<path.size()<<")"<<endl;
+//		}
+//		else {250,360,0,150
+//			cout<<"! Path not found"<<endl;
+//		}
+//
+//
+//		Draw3D(argc,argv);
+//	}
+//
+//	return 0;
+//}
+
+
 int main(int argc, char** argv)
 {
-
-	RunBenchmark(5);
-
-	return 0;
-
 	if(!parseArg(argc, argv))
 	{
 		cout<<"Usage: \t"<<argv[0]<<" input_file [x1 y1 t11 t12 x2 y2 t21 t22 l1 l2 scale dx dy mehtod seed #samples stepsize]"<<endl;
@@ -281,48 +345,73 @@ int main(int argc, char** argv)
 	}
 	else
 	{
-		planner=NULL;
-
-		if(method=="rrt" || method=="RRT" || method=="Rrt")
-			//float w, float h, float tr, float rr, unsigned int max_sample, float expand_step, float bias, float close_to_goal
-			planner = new RRT(env_width, env_height, env_TR, env_RR, max_sample_size, rrt_step_size,rrt_bias,rrt_close_to_goal);
-		else if(method=="prm" || method=="PRM" || method=="Prm")
-			planner = new PRM(env_width, env_height, env_TR, env_RR, max_sample_size,prm_closest_k);
-		else if(method=="gauss" || method=="GAUSS" || method=="Gauss")
-			planner = new GaussianPRM(env_width, env_height, env_TR, env_RR, max_sample_size,prm_closest_k,gauss_mean_d, gauss_std);
-				
-		if(planner==NULL)
-			return 1;
+//		planner=NULL;
+//
+//		if(method=="rrt" || method=="RRT" || method=="Rrt")
+//			//float w, float h, float tr, float rr, unsigned int max_sample, float expand_step, float bias, float close_to_goal
+//			planner = new RRT(env_width, env_height, env_TR, env_RR, max_sample_size, rrt_step_size,rrt_bias,rrt_close_to_goal);
+//		else if(method=="prm" || method=="PRM" || method=="Prm")
+//			planner = new PRM(env_width, env_height, env_TR, env_RR, max_sample_size,prm_closest_k);
+//		else if(method=="gauss" || method=="GAUSS" || method=="Gauss")
+//			planner = new GaussianPRM(env_width, env_height, env_TR, env_RR, max_sample_size,prm_closest_k,gauss_mean_d, gauss_std);
+//
+//		if(planner==NULL)
+//			return 1
 
 		readInput(filename);
 
+		cout<<"input read!"<<endl;
+
 		srand(seed);
 
-		// init robot
-		planner->getRobot().init(l1, l2, start);
+		vector<double> start_cfg = {start.x, start.y, LimitAngle(start.t1), LimitAngle(start.t2)};
+		vector<double> goal_cfg =  {goal.x, goal.y, LimitAngle(goal.t1), LimitAngle(goal.t2)};
 
-		// find the path
-		start = planner->to_parametric(start); 
-		goal = planner->to_parametric(goal);
+		Env::Instance()->Init(start_cfg, goal_cfg);
+		Env::Instance()->GetRobot().Init(l1,l2,start_cfg);
 
-		if(planner->findPath(start, goal))
+
+		cout<<"robot inited!"<<endl;
+
+		ompl::base::StateSpacePtr links(new TwoLinkSpace());
+		ompl::geometric::SimpleSetup ss(links);
+
+		ss.setStateValidityChecker(ompl::base::StateValidityCheckerPtr(
+				new TwoLinkValidityChecker(ss.getSpaceInformation())));
+
+		ompl::base::ScopedState<> startState(links), goalState(links);
+
+		links->setup();
+		links->copyFromReals(startState.get(), start_cfg);
+		links->copyFromReals(goalState.get(), goal_cfg);
+		ss.setStartAndGoalStates(startState, goalState);
+
+		ss.setPlanner(ompl::base::PlannerPtr(new ompl::geometric::PRM(ss.getSpaceInformation())));
+		ss.setup();
+		ss.print();
+		auto result = ss.solve(10);
+
+		cout<<"Obstacles = "<<Env::Instance()->GetObstacles().size()<<endl;
+
+		if(result == ompl::base::PlannerStatus::EXACT_SOLUTION || result == ompl::base::PlannerStatus::APPROXIMATE_SOLUTION)
 		{
-			planner->getRobot().setCFG(start);
+			//ss.simplifySolution();
 
-			vector<CFG> path = planner->getPath();
+			ompl::geometric::PathGeometric path = ss.getSolutionPath();
+			std::vector<double> v;
+			for(unsigned int i = 0; i < path.getStateCount(); ++i)
+			{
+				links->copyToReals(v, path.getState(i));
+				std::copy(v.begin(), v.end(), std::ostream_iterator<double>(std::cout, " "));
+				std::cout << std::endl;
 
-			cout<<"- Path found (";
-
-			/*for(PIT it=path.begin(); it!=path.end(); ++it) {
-				cout<<*it<<endl;
-			}*/
-
-			cout<<"length = "<<path.size()<<")"<<endl;
+				path_found.push_back(v);
+			}
 		}
-		else {
-			cout<<"! Path not found"<<endl;
-		}
+		else
+		{
 
+		}
 
 		Draw3D(argc,argv);
 	}

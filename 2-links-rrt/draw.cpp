@@ -9,6 +9,7 @@
 using namespace std;
 
 #include "draw.h"
+#include <ompl/geometric/SimpleSetup.h>
 
 #define SQR(x) ((x)*(x))
 
@@ -16,7 +17,7 @@ extern bool debug;
 extern bool check;
 
 extern string filename;
-extern Planner * planner;
+extern vector<vector<double> > path_found;
 
 extern float env_TR;				// TRANSLATIONAL RESOLUTION
 extern float env_RR;				// Rotational RESOLUTION (deg)
@@ -38,12 +39,7 @@ bool showF=true, showE=true, showV=false, showC=true, showT=true, showL=true, sh
 double COM[3] = {250, 250, 0};
 double R = 250; //center and radius
 
-int path_index = 0;
-
-void DrawRobot(RRT_ROBOT& robot, const CFG& cfg);
-
-
-static PATH path;
+unsigned int path_index = 0;
 
 void drawCircle(float radius, float angle, bool fill)
 
@@ -175,137 +171,135 @@ void DisplayBackground(void)
 }
 
 
-void DrawTree(RRT* planner, const RRT_TREE& tree)
+//void DrawTree(RRT* planner, const RRT_TREE& tree)
+//{
+//	glPointSize(3);
+//	glColor3f(0,0,0);
+//	for(CTIT it = tree.begin(); it != tree.end(); ++it)
+//	{
+//		const RRT_NODE* node = *it;
+//		CFG cfg=planner->to_physical(node->cfg);
+//		if(show_roadmap_node_as_robot)
+//			DrawRobot(planner->getRobot(), cfg);
+//		else
+//		{
+//			glBegin(GL_POINTS);
+//			glVertex2d(cfg.x,cfg.y);
+//			glEnd();
+//		}
+//    }
+//
+//	glLineWidth(0.5);
+//	glColor3f(0,0,0);
+//	glBegin(GL_LINES);
+//	for(CTIT it = tree.begin(); it != tree.end(); ++it){
+//		const RRT_NODE* node = *it;
+//		const RRT_NODE* parent = (*it)->parent;
+//		if(!parent) continue;
+//
+//		CFG ncfg=planner->to_physical(node->cfg);
+//		CFG pcfg=planner->to_physical(parent->cfg);
+//		glVertex2d(ncfg.x, ncfg.y);
+//		glVertex2d(pcfg.x, pcfg.y);
+//	}
+//	glEnd();
+//}
+
+
+//void DrawGraph(PRM* planner, const WDG& graph)
+//{
+//    float radius=10;
+//
+//    glDisable(GL_LIGHTING);
+//
+//
+//
+//    ///////////////////////////////////////////////////////////////////////////
+//
+//	glLineWidth(0.5);
+//	glColor3f(0,0,0);
+//
+//    //glColor3fv(m_color.get());
+//
+//    ///////////////////////////////////////////////////////////////////////////
+//
+//    //draw nodes
+//
+//	vector<VID> vids;
+//
+//	graph.GetVerticesVID(vids);
+//
+//    typedef vector<VID>::iterator NIT;
+//
+//	glPointSize(3);
+//
+//
+//
+//    {for(NIT i=vids.begin();i!=vids.end();i++)
+//
+//	{
+//
+//		CFG cfg=planner->to_physical( graph.GetData(*i).getCFG() );
+//
+//		if(show_roadmap_node_as_robot)
+//			DrawRobot(planner->getRobot(), cfg);
+//		else
+//		{
+//			glBegin(GL_POINTS);
+//			glVertex2d(cfg.x,cfg.y);
+//			glEnd();
+//		}
+//    }}
+//
+//
+//
+//
+//
+//    ///////////////////////////////////////////////////////////////////////////
+//
+//    //draw edges
+//
+//
+//
+//	glColor4f(0.5,0.5,0.5,0.5);
+//
+//    glPushAttrib(GL_CURRENT_BIT);
+//
+//    vector< pair<VID,VID> > edges;
+//
+//    typedef vector< pair<VID,VID> >::iterator EIT;
+//
+//    graph.GetEdges(edges);
+//
+//    glBegin(GL_LINES);
+//
+//    {for(EIT i=edges.begin();i!=edges.end();i++){
+//
+//		CFG p1=planner->to_physical(graph.GetData(i->first).getCFG());
+//
+//		CFG p2=planner->to_physical(graph.GetData(i->second).getCFG());
+//
+//		glVertex2d(p1.x,p1.y);
+//
+//        glVertex2d(p2.x,p2.y);
+//
+//    }}//end for
+//
+//    glEnd();
+//}
+
+void DrawPolygons(vector<c_ply>& objs)
 {
-	glPointSize(3);
-	glColor3f(0,0,0);
-	for(CTIT it = tree.begin(); it != tree.end(); ++it)
-	{
-		const RRT_NODE* node = *it;
-		CFG cfg=planner->to_physical(node->cfg);
-		if(show_roadmap_node_as_robot)
-			DrawRobot(planner->getRobot(), cfg);
-		else
-		{
-			glBegin(GL_POINTS);
-			glVertex2d(cfg.x,cfg.y);
-			glEnd();
-		}
-    }
-    
-	glLineWidth(0.5);
-	glColor3f(0,0,0);
-	glBegin(GL_LINES);
-	for(CTIT it = tree.begin(); it != tree.end(); ++it){
-		const RRT_NODE* node = *it;
-		const RRT_NODE* parent = (*it)->parent;
-		if(!parent) continue;
-
-		CFG ncfg=planner->to_physical(node->cfg);
-		CFG pcfg=planner->to_physical(parent->cfg);
-		glVertex2d(ncfg.x, ncfg.y);
-		glVertex2d(pcfg.x, pcfg.y);
-	}
-	glEnd();
-}
-
-
-void DrawGraph(PRM* planner, const WDG& graph)
-{
-    float radius=10;
-
-    glDisable(GL_LIGHTING);
-
-
-
-    ///////////////////////////////////////////////////////////////////////////
-
-	glLineWidth(0.5);
-	glColor3f(0,0,0);
-
-    //glColor3fv(m_color.get());
-
-    ///////////////////////////////////////////////////////////////////////////
-
-    //draw nodes
-
-	vector<VID> vids;
-
-	graph.GetVerticesVID(vids);
-
-    typedef vector<VID>::iterator NIT;
-
-	glPointSize(3);
-
-	
-
-    {for(NIT i=vids.begin();i!=vids.end();i++)
-
-	{
-
-		CFG cfg=planner->to_physical( graph.GetData(*i).getCFG() );
-		
-		if(show_roadmap_node_as_robot)
-			DrawRobot(planner->getRobot(), cfg);
-		else
-		{
-			glBegin(GL_POINTS);
-			glVertex2d(cfg.x,cfg.y);
-			glEnd();
-		}
-    }}
-
-	
-
-
-
-    ///////////////////////////////////////////////////////////////////////////
-
-    //draw edges
-
-
-
-	glColor4f(0.5,0.5,0.5,0.5);
-
-    glPushAttrib(GL_CURRENT_BIT);
-
-    vector< pair<VID,VID> > edges;
-
-    typedef vector< pair<VID,VID> >::iterator EIT;
-
-    graph.GetEdges(edges);
-
-    glBegin(GL_LINES);
-
-    {for(EIT i=edges.begin();i!=edges.end();i++){
-
-		CFG p1=planner->to_physical(graph.GetData(i->first).getCFG());
-
-		CFG p2=planner->to_physical(graph.GetData(i->second).getCFG());
-
-		glVertex2d(p1.x,p1.y);
-
-        glVertex2d(p2.x,p2.y);
-
-    }}//end for
-
-    glEnd();
-}
-
-void DrawPolygons(RRT_OBJS& objs)
-{
-
-	//glColor3f(1.0, 0.5, 0.1);
 	glColor3f(0,0,0);
 	glLineWidth(1);
 
-	for(RIT it = objs.begin(); it != objs.end(); ++it){
+	for(auto& o : objs){
 		//const vector<triangle>& tris = it->getTriangulation();
 		glBegin(GL_LINE_LOOP);
-		size_t size = it->getSize();
+		size_t size = o.getSize();
 		for(size_t i=0;i<size;i++)
 		{
-			ply_vertex* p = it->operator [](i);
+			ply_vertex* p = o[i];
 
 			glVertex2dv(p->getPos().get());
 
@@ -323,37 +317,35 @@ void DrawPolygons(RRT_OBJS& objs)
 
 }
 
-void DrawPath(Planner* planner, const PATH& path)
+void DrawPath(const vector<vector<double> >& path)
 {
 	glColor3f(0.0, 0, 1.0);
 	glLineWidth(3);
 	glBegin(GL_LINE_STRIP);
-	for(CPIT it = path.begin(); it != path.end(); ++it){
-		CFG cfg= planner->to_physical(*it);
-		glVertex2d(cfg.x, cfg.y);
+	for(auto& n : path){
+		//CFG cfg= planner->to_physical(*it);
+		glVertex2d(n[0], n[1]);
 	}
 	glEnd();
 	
 	if(show_path_node_as_robot)
 	{
-		for(CPIT it = path.begin(); it != path.end(); ++it)
-		{
-			CFG cfg= planner->to_physical(*it);
-			DrawRobot(planner->getRobot(), cfg);
+		for(auto& n : path){
+			DrawRobot(Env::Instance()->GetRobot(), n);
 		}
 	}
 }
 
-void DrawRobot(RRT_ROBOT& robot, const CFG& cfg)
+void DrawRobot(TwoLinkRobot& robot, const vector<double>& state)
 {
-	robot.setCFG(cfg);
+	robot.SetState(state);
 
 	glLineWidth(3);
 	glBegin(GL_LINES);
 
-	Vector2d v1 = robot.p[1];
-	Vector2d v0 = robot.p[0];
-	Vector2d v2 = robot.p[2];
+	Vector2d v1 = robot.P[1];
+	Vector2d v0 = robot.P[0];
+	Vector2d v2 = robot.P[2];
 
 	glColor3f(0.0, 1.0, 0.0);
 	glVertex2d(v0[0], v0[1]);
@@ -365,78 +357,89 @@ void DrawRobot(RRT_ROBOT& robot, const CFG& cfg)
 	glEnd();
 }
 
-void interpolate_path(PATH& path)
+void interpolate_path()
 {
-	PATH tmp;
-	for(PATH::iterator i=path.begin();i!=path.end();i++)
+	vector<vector<double> > tmp;
+	for(size_t i=1;i<path_found.size();++i)
 	{
-		PATH::iterator n=i;
-		n++;
-		if(n==path.end()){ tmp.push_back(*i); break; }
-		CFG vec=((*n)-(*i));
-		double dT=vec.normT();
-		double dR=vec.normR();
+		const auto& p = path_found[i-1];
+		const auto& c = path_found[i];
+
+		double dT = Vector2d(c[0] - p[0], c[1] - p[1]).norm();
+		double dR = Vector2d(c[2] - p[2], c[3] - p[3]).norm();
+
 		int steps=(int)ceil(max(dT/env_TR,dR/env_RR));
-		
-		CFG step=vec/steps;
-		
-		for(int s=0;s<steps;s++)
+
+		if(steps > 20) steps = 20;
+
+		for(int s=1;s<=steps;s++)
 		{
-			CFG cfg=(*i)+step*s;
+			vector<double> cfg = p;
+
+			for(int j=0;j<4;j++)
+			{
+				cfg[j] += (double)s/steps*(c[j] - p[j]);
+			}
+
 			tmp.push_back(cfg);
 		}
-		
 	}//end for
-	
+
 	//
-	tmp.swap(path);
+	tmp.swap(path_found);
 }
 
 void DrawAll()
 {
-	DrawPolygons(planner->getPolygons());
+	DrawPolygons(Env::Instance()->GetObstacles());
 
-	if(show_roadmap)
-	{
-		glPushMatrix();
-		glTranslated(0,0,-.2);
-		if(dynamic_cast<RRT*>(planner)!=NULL)
-		{
-			RRT * rrt=dynamic_cast<RRT*>(planner);
-			DrawTree(rrt, rrt->getTree());
-		}
-
-		if(dynamic_cast<PRM*>(planner)!=NULL)
-		{
-			PRM * prm=dynamic_cast<PRM*>(planner);
-			DrawGraph(prm, prm->getGraph());
-		}
-		glPopMatrix();
-	}
-
+//	if(show_roadmap)
+//	{
+//		glPushMatrix();
+//		glTranslated(0,0,-.2);
+//		if(dynamic_cast<RRT*>(planner)!=NULL)
+//		{ompl::geometric::
+//			RRT * rrt=dynamic_cast<RRT*>(planner);
+//			DrawTree(rrt, rrt->getTree());
+//		}
+//
+//		if(dynamic_cast<PRM*>(planner)!=NULL)
+//		{
+//			PRM * prm=dynamic_cast<PRM*>(planner);
+//			DrawGraph(prm, prm->getGraph());
+//		}
+//		glPopMatrix();
+//	}
 	
-	if(path.empty())
-	{
-		path=planner->getPath();
-		interpolate_path(path);
-	}
+//	if(path.empty())
+//	{
+//		ompl::geometric::PathGeometric p = SS->getSolutionPath();
+//		std::vector<double> v;
+//		for(unsigned int i = 0; i < p.getStateCount(); ++i)
+//		{
+//			links->copyToReals(v, p.getState(i));
+//			std::copy(v.begin(), v.end(), std::ostream_iterator<double>(std::cout, " "));
+//			std::cout << std::endl;
+//		}
+//		//interpolate_path(path);
+//	}
 	
 	if(show_path)
 	{
 		glPushMatrix();
 		glTranslated(0,0,-.1);
-		DrawPath(planner, path);
+		DrawPath(path_found);
 		glPopMatrix();
 	}
 
-	DrawRobot(planner->getRobot(), planner->to_physical(planner->getStart()));
-	DrawRobot(planner->getRobot(), planner->to_physical(planner->getGoal()));
+	DrawRobot(Env::Instance()->GetRobot(), Env::Instance()->GetStart());
+	DrawRobot(Env::Instance()->GetRobot(), Env::Instance()->GetGoal());
 
 	if(path_index < 0) path_index = 0;
-	if(path_index >= path.size()) path_index = path.size()-1;
+	if(path_index >= path_found.size()) path_index = path_found.size()-1;
 
-	if(!path.empty())
-		DrawRobot(planner->getRobot(), planner->to_physical(path[path_index]) );
+	if(!path_found.empty())
+		DrawRobot(Env::Instance()->GetRobot(), path_found[path_index]);
 
 
 }
@@ -564,10 +567,10 @@ void animate(int value)
 {
 	if(!animation) return;
 
-	if(path_index + 1 < path.size())
+	if(path_index + 1 < path_found.size())
 	{
 		path_index++;
-		glutTimerFunc(50, animate, value);
+		glutTimerFunc(10, animate, value);
 	}else {
 		animation = false;
 	}
@@ -610,6 +613,8 @@ void resetCamera()
 }
 
 
+
+
 void Draw3D(int argc, char ** argv)
 {
 	glutInit( &argc, argv );
@@ -628,6 +633,8 @@ void Draw3D(int argc, char ** argv)
 	//set camera position
 	gli::set2DMode(true);
 	resetCamera();
+
+	interpolate_path();
 
 	animation = true;
 

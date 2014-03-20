@@ -279,6 +279,8 @@ void RunBenchmark(unsigned int links)
     chain->copyFromReals(goal.get(), goalVec);
     ss.setStartAndGoalStates(start, goal);
 
+
+
     // by default, use the Benchmark class
     double runtime_limit = 7200, memory_limit = 1024;
     int run_count = 20;
