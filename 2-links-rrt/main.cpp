@@ -386,7 +386,14 @@ int main(int argc, char** argv)
 		links->copyFromReals(goalState.get(), goal_cfg);
 		ss.setStartAndGoalStates(startState, goalState);
 
-		ss.setPlanner(ompl::base::PlannerPtr(new ompl::geometric::PRM(ss.getSpaceInformation())));
+
+		if(method == "rrt" || method == "RRT")
+			ss.setPlanner(ompl::base::PlannerPtr(new ompl::geometric::RRT(ss.getSpaceInformation())));
+		else if(method == "prm" || method == "PRM")
+			ss.setPlanner(ompl::base::PlannerPtr(new ompl::geometric::PRM(ss.getSpaceInformation())));
+		else
+			return 1;
+
 		ss.setup();
 		ss.print();
 		auto result = ss.solve(10);
