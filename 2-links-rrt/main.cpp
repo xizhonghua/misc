@@ -334,7 +334,15 @@ int parseArg(int argc, char** argv)
 //
 //	return 0;
 //}
+namespace ob = ompl::base;
+namespace og = ompl::geometric;
 
+ob::ValidStateSamplerPtr allocGaussianValidStateSampler(const ob::SpaceInformation *si)
+{
+    // we can perform any additional setup / configuration of a sampler here,
+    // but there is nothing to tweak in case of the ObstacleBasedValidStateSampler.
+    return ob::ValidStateSamplerPtr(new ob::GaussianValidStateSampler(si));
+}
 
 int main(int argc, char** argv)
 {
@@ -386,21 +394,38 @@ int main(int argc, char** argv)
 		links->copyFromReals(goalState.get(), goal_cfg);
 		ss.setStartAndGoalStates(startState, goalState);
 
+		const auto si = ss.getSpaceInformation();
+
 
 		if(method == "rrt" || method == "RRT")
-			ss.setPlanner(ompl::base::PlannerPtr(new ompl::geometric::RRT(ss.getSpaceInformation())));
+		{
+			auto rrt = new og::RRT(si);
+			ss.setPlanner(ob::PlannerPtr(rrt));
+			cout<<"rrt range = "<<rrt->getRange()<<endl;
+		}
 		else if(method == "prm" || method == "PRM")
-			ss.setPlanner(ompl::base::PlannerPtr(new ompl::geometric::PRM(ss.getSpaceInformation())));
+		{
+			ss.setPlanner(ob::PlannerPtr(new og::PRM(si)));
+		}
+		else if(method=="gauss" || method=="GAUSS" || method=="Gauss")
+		{
+			ss.setPlanner(ob::PlannerPtr(new ompl::geometric::PRM(si)));
+			ss.getSpaceInformation()->setValidStateSamplerAllocator(allocGaussianValidStateSampler);
+		}
 		else
 			return 1;
 
 		ss.setup();
 		ss.print();
-		auto result = ss.solve(10);
+
+		Timer t;
+		t.start();
+		auto result = ss.solve(30);
+		double time_cost = t.getElapsedCPUMilliseconds();
 
 		cout<<"Obstacles = "<<Env::Instance()->GetObstacles().size()<<endl;
 
-		if(result == ompl::base::PlannerStatus::EXACT_SOLUTION || result == ompl::base::PlannerStatus::APPROXIMATE_SOLUTION)
+		if(result == ompl::base::PlannerStatus::EXACT_SOLUTION)
 		{
 			//ss.simplifySolution();
 
@@ -414,13 +439,19 @@ int main(int argc, char** argv)
 
 				path_found.push_back(v);
 			}
+
+			cout<<"PATH FOUND"<<endl;
 		}
 		else
 		{
-
+			cout<<"PATH NOT FOUND"<<endl;
 		}
 
+		cout<<"Time = "<<time_cost<<" ms "<<endl;
+
+#ifdef USE_OPENGL
 		Draw3D(argc,argv);
+#endif
 	}
 
 	return 0;

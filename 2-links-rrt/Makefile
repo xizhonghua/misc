@@ -3,6 +3,11 @@
 # you will need to install freeglut on linux to make
 
 OPENGL_ON := 1
+USE_OPENGL := 1
+
+ifeq ($(USE_OPENGL),1)
+  DFLAGS := -DUSE_OPENGL
+endif
 
 
 #-----------------------------------------------------------------------------
@@ -86,8 +91,8 @@ SRCS=$(wildcard $(addsuffix /*.cpp,$(SUBDIRS)))
 OBJS=${SRCS:.cpp=.o}
 LIB = $(X_LIB) $(GL_LIB) $(TRI_LIB) $(OMPL_LIB)
 
-CFLAGS   = $(OPTS) $(INCLUDE) 
-CXXFLAGS = $(CFLAGS) 
+CFLAGS   = $(OPTS) $(INCLUDE)
+CXXFLAGS = $(CFLAGS) $(DFLAGS)
 
 
 #=================================================

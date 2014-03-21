@@ -63,7 +63,7 @@ double TwoLinkRobot::Distance(const TwoLinkRobot& r)
 	double dist = 0.0;
 	for(int i=0;i<3;i++)
 		dist += (this->P[i] - r.P[i]).normsqr();
-	return dist;
+	return sqrt(dist);
 }
 
 // ============================================================
@@ -75,7 +75,7 @@ Env* m_env = NULL;
 Env::Env() {
 	// TODO Auto-generated constructor stub
 
-	this->m_bounds = {-10, -10, 520, 520};
+	this->m_bounds = {-20, -20, 520, 520};
 }
 
 void Env::Init(double env_width, double env_height, const vector<double>& start, const vector<double> goal)

@@ -18,6 +18,7 @@ using namespace std;
 #include <ompl/geometric/planners/prm/PRM.h>
 #include <ompl/geometric/planners/stride/STRIDE.h>
 #include <ompl/tools/benchmark/Benchmark.h>
+#include <ompl/base/samplers/GaussianValidStateSampler.h>
 
 #include <boost/math/constants/constants.hpp>
 #include <boost/format.hpp>
@@ -26,6 +27,7 @@ using namespace std;
 
 #include "RRT.h"
 #include "draw.h"
+#include "Timer.h"
 
 
 string filename;
