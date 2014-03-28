@@ -92,7 +92,7 @@ OBJS=${SRCS:.cpp=.o}
 LIB = $(X_LIB) $(GL_LIB) $(TRI_LIB) $(OMPL_LIB)
 
 CFLAGS   = $(OPTS) $(INCLUDE)
-CXXFLAGS = $(CFLAGS) $(DFLAGS)
+CXXFLAGS = $(CFLAGS) $(DFLAGS) -O3
 
 
 #=================================================
@@ -242,12 +242,17 @@ eg1-gauss: $(TARGET)
 	
 eg2-rrt: $(TARGET)
 	@echo "Target eg2: 8-way junction"  
-	./$(TARGET) inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 85 1 0 0 \
+	./$(TARGET) inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
 	 rrt $(seed) 1000000 0.05 0.5 $(rrt_close_to_goal)
+
+eg2-prm: $(TARGET)
+	@echo "Target eg2: 8-way junction"  
+	./$(TARGET) inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 prm $(seed) 5000000 $(prm_closest_k) 0.01 0.01
 	
 eg2-gauss: $(TARGET)
 	@echo "Target eg2: 8-way junction"  
-	./$(TARGET) inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 85 1 0 0 \
+	./$(TARGET) inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
 	 gauss $(seed) 5000000 $(prm_closest_k) 0.01 0.01
 
 eg3-rrt: $(TARGET)
@@ -272,6 +277,10 @@ eg4a-gauss: $(TARGET)
 eg5-rrt: $(TARGET)
 	./$(TARGET) inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
 	 rrt $(seed) 100000 0.05 $(rrt_goal_bias) $(rrt_close_to_goal)
+
+eg5-prm: $(TARGET)
+	./$(TARGET) inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 prm $(seed) 1000000 20 0.01 0.01
 
 eg5-gauss: $(TARGET)
 	./$(TARGET) inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
@@ -307,10 +316,13 @@ eg10-rrt: $(TARGET)
 	 rrt $(seed) 100000 0.05 $(rrt_goal_bias) $(rrt_close_to_goal) 
 	
 	
+eg10-prm: $(TARGET)
+	./$(TARGET) inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm $(seed) 1000000 20 0.01 0.01
+
 eg10-gauss: $(TARGET)
 	./$(TARGET) inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
 	gauss $(seed) 1000000 20 0.01 0.01
-
 		
 eg11-rrt nestedRectangle-rrt: $(TARGET)
 	./$(TARGET) inputs/nestedRectangle.txt 425 390 180 270 95 100 0 90    60 40    0.065   -220 0 \
@@ -352,6 +364,10 @@ eg300-rrt 300-rrt: $(TARGET)
 eg300-gauss 300-gauss: $(TARGET)
 	./$(TARGET) inputs/input300.txt 0 400 90 270 330 40 270 0   40 30  1 0 0 \
 	 gauss $(seed) 600000 20 0.01 0.01
+
+eg300-prm: $(TARGET)
+	./$(TARGET) inputs/input300.txt 0 400 90 270 330 40 270 0   40 30  1 0 0 \
+	 prm $(seed) 600000 20 0.01 0.01
 
 eg12-rrt: $(TARGET)
 	./$(TARGET) inputs/input4.txt 405 400 180 270 105 60 0 180   15 15   1 0 0 \

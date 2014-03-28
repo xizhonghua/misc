@@ -1,0 +1,744 @@
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 6173 states
+Info:    Solution found in 6.716487 seconds
+PATH FOUND
+Time = 2200 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 19528 states
+Info:    Solution found in 19.469537 seconds
+PATH FOUND
+Time = 7540 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 8622 states
+Info:    Solution found in 9.008230 seconds
+PATH FOUND
+Time = 2970 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 12250 states
+Info:    Solution found in 13.478733 seconds
+PATH FOUND
+Time = 5220 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 11264 states
+Info:    Solution found in 14.078127 seconds
+PATH FOUND
+Time = 4850 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 7296 states
+Info:    Solution found in 8.947544 seconds
+PATH FOUND
+Time = 2960 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 7313 states
+Info:    Solution found in 7.476298 seconds
+PATH FOUND
+Time = 2480 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 9931 states
+Info:    Solution found in 8.986619 seconds
+PATH FOUND
+Time = 3580 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 10717 states
+Info:    Solution found in 8.473921 seconds
+PATH FOUND
+Time = 3930 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 5321 states
+Info:    Solution found in 5.224799 seconds
+PATH FOUND
+Time = 1690 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 14674 states
+Info:    Solution found in 16.606520 seconds
+PATH FOUND
+Time = 5660 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 6053 states
+Info:    Solution found in 6.493742 seconds
+PATH FOUND
+Time = 2130 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 5523 states
+Info:    Solution found in 6.245702 seconds
+PATH FOUND
+Time = 2000 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 5314 states
+Info:    Solution found in 6.132623 seconds
+PATH FOUND
+Time = 1990 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 14099 states
+Info:    Solution found in 11.414228 seconds
+PATH FOUND
+Time = 4800 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 6473 states
+Info:    Solution found in 5.489774 seconds
+PATH FOUND
+Time = 1990 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 6720 states
+Info:    Solution found in 5.772228 seconds
+PATH FOUND
+Time = 2150 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 6631 states
+Info:    Solution found in 6.779268 seconds
+PATH FOUND
+Time = 2190 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 8174 states
+Info:    Solution found in 7.403929 seconds
+PATH FOUND
+Time = 2990 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 10698 states
+Info:    Solution found in 12.627330 seconds
+PATH FOUND
+Time = 4100 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 15935 states
+Info:    Solution found in 16.042890 seconds
+PATH FOUND
+Time = 6700 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 8680 states
+Info:    Solution found in 9.728939 seconds
+PATH FOUND
+Time = 3110 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 18473 states
+Info:    Solution found in 16.564458 seconds
+PATH FOUND
+Time = 6900 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 9274 states
+Info:    Solution found in 8.690715 seconds
+PATH FOUND
+Time = 3000 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 10135 states
+Info:    Solution found in 9.953852 seconds
+PATH FOUND
+Time = 3620 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 9459 states
+Info:    Solution found in 11.687338 seconds
+PATH FOUND
+Time = 3880 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 7624 states
+Info:    Solution found in 8.204514 seconds
+PATH FOUND
+Time = 2630 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 9095 states
+Info:    Solution found in 10.077139 seconds
+PATH FOUND
+Time = 3380 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 7671 states
+Info:    Solution found in 10.852995 seconds
+PATH FOUND
+Time = 2910 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 4759 states
+Info:    Solution found in 4.954800 seconds
+PATH FOUND
+Time = 1610 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 gauss 11		 5000000 15         0.01 0.01
+- method=gauss
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=5000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 4844 states
+Info:    Solution found in 4.337068 seconds
+PATH FOUND
+Time = 1430 ms 

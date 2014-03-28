@@ -1,0 +1,846 @@
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 5909 states
+Info:    Solution found in 152.537139 seconds
+PATH FOUND
+Time = 144730 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    Adding approximate solution
+Info:    RRT: Created 6441 states
+Info:    Solution found in 300.121742 seconds
+PATH NOT FOUND
+Time = 284440 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 5051 states
+Info:    Solution found in 234.610776 seconds
+PATH FOUND
+Time = 222780 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 5636 states
+Info:    Solution found in 188.338190 seconds
+PATH FOUND
+Time = 178490 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 2672 states
+Info:    Solution found in 67.393806 seconds
+PATH FOUND
+Time = 57310 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 10525 states
+Info:    Solution found in 288.539360 seconds
+PATH FOUND
+Time = 278270 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 8293 states
+Info:    Solution found in 224.508137 seconds
+PATH FOUND
+Time = 217060 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    Adding approximate solution
+Info:    RRT: Created 9368 states
+Info:    Solution found in 300.535003 seconds
+PATH NOT FOUND
+Time = 292560 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    Adding approximate solution
+Info:    RRT: Created 8362 states
+Info:    Solution found in 300.145712 seconds
+PATH NOT FOUND
+Time = 274360 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 6545 states
+Info:    Solution found in 198.185933 seconds
+PATH FOUND
+Time = 171680 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    Adding approximate solution
+Info:    RRT: Created 6172 states
+Info:    Solution found in 300.616578 seconds
+PATH NOT FOUND
+Time = 270210 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    Adding approximate solution
+Info:    RRT: Created 7614 states
+Info:    Solution found in 300.126551 seconds
+PATH NOT FOUND
+Time = 247840 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    Adding approximate solution
+Info:    RRT: Created 10274 states
+Info:    Solution found in 300.072584 seconds
+PATH NOT FOUND
+Time = 276080 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 533 states
+Info:    Solution found in 17.872219 seconds
+PATH FOUND
+Time = 12130 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 8390 states
+Info:    Solution found in 214.874518 seconds
+PATH FOUND
+Time = 202990 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 8953 states
+Info:    Solution found in 211.968380 seconds
+PATH FOUND
+Time = 202240 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    Adding approximate solution
+Info:    RRT: Created 7241 states
+Info:    Solution found in 300.024401 seconds
+PATH NOT FOUND
+Time = 287660 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 5108 states
+Info:    Solution found in 203.730967 seconds
+PATH FOUND
+Time = 190490 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 6277 states
+Info:    Solution found in 233.671026 seconds
+PATH FOUND
+Time = 221120 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 7024 states
+Info:    Solution found in 204.011337 seconds
+PATH FOUND
+Time = 184680 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 3319 states
+Info:    Solution found in 123.316033 seconds
+PATH FOUND
+Time = 111150 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 8199 states
+Info:    Solution found in 205.021448 seconds
+PATH FOUND
+Time = 192830 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 8737 states
+Info:    Solution found in 280.550380 seconds
+PATH FOUND
+Time = 264140 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 6091 states
+Info:    Solution found in 267.366681 seconds
+PATH FOUND
+Time = 255380 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 8205 states
+Info:    Solution found in 243.482013 seconds
+PATH FOUND
+Time = 232080 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 2441 states
+Info:    Solution found in 126.573677 seconds
+PATH FOUND
+Time = 116790 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 649 states
+Info:    Solution found in 22.834269 seconds
+PATH FOUND
+Time = 11500 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 8575 states
+Info:    Solution found in 235.700164 seconds
+PATH FOUND
+Time = 221560 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    Adding approximate solution
+Info:    RRT: Created 6514 states
+Info:    Solution found in 300.158707 seconds
+PATH NOT FOUND
+Time = 282690 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    Adding approximate solution
+Info:    RRT: Created 10322 states
+Info:    Solution found in 300.085679 seconds
+PATH NOT FOUND
+Time = 286180 ms 
+Target eg2: 8-way junction
+./rrtd inputs/zigzagrotation.txt 216 297 115 155  210 220 260 200  85 80 1 0 0 \
+	 rrt 11		 1000000 0.05 0.5 0.001 
+- method=rrt
+- seed=11
+- start=(216,297,115,155)
+- goal=(210,220,260,200)
+- planner max sample size=1000000
+- rrt step size=0.05
+- rrt goal bias=0.5
+- rrt close to goal=0.001
+- l1=85
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {216,297,2.00713,2.70526}
+goal_cfg  = {210,220,-1.74533,-2.79253}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 3011 states
+Info:    Solution found in 75.535967 seconds
+PATH FOUND
+Time = 69960 ms 

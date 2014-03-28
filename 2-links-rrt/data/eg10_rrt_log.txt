@@ -1,0 +1,806 @@
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 1625 states
+Info:    Solution found in 45.305195 seconds
+PATH FOUND
+Time = 44110 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 1215 states
+Info:    Solution found in 34.117148 seconds
+PATH FOUND
+Time = 33080 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 100 states
+Info:    Solution found in 3.010373 seconds
+PATH FOUND
+Time = 2140 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 20 states
+Info:    Solution found in 0.508574 seconds
+PATH FOUND
+Time = 220 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 431 states
+Info:    Solution found in 12.850224 seconds
+PATH FOUND
+Time = 12380 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 31 states
+Info:    Solution found in 0.810266 seconds
+PATH FOUND
+Time = 460 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 73 states
+Info:    Solution found in 2.373074 seconds
+PATH FOUND
+Time = 1980 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 2173 states
+Info:    Solution found in 80.812669 seconds
+PATH FOUND
+Time = 79770 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 16 states
+Info:    Solution found in 0.404969 seconds
+PATH FOUND
+Time = 160 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 109 states
+Info:    Solution found in 3.991489 seconds
+PATH FOUND
+Time = 3500 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 341 states
+Info:    Solution found in 10.281570 seconds
+PATH FOUND
+Time = 9840 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 45 states
+Info:    Solution found in 1.763154 seconds
+PATH FOUND
+Time = 1280 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 991 states
+Info:    Solution found in 26.243208 seconds
+PATH FOUND
+Time = 25390 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 26 states
+Info:    Solution found in 0.875964 seconds
+PATH FOUND
+Time = 620 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 34 states
+Info:    Solution found in 0.881834 seconds
+PATH FOUND
+Time = 370 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 27 states
+Info:    Solution found in 0.669508 seconds
+PATH FOUND
+Time = 420 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 51 states
+Info:    Solution found in 1.812798 seconds
+PATH FOUND
+Time = 1260 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 15 states
+Info:    Solution found in 0.495403 seconds
+PATH FOUND
+Time = 220 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 57 states
+Info:    Solution found in 2.041182 seconds
+PATH FOUND
+Time = 1760 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 13 states
+Info:    Solution found in 0.272363 seconds
+PATH FOUND
+Time = 100 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 1290 states
+Info:    Solution found in 39.924437 seconds
+PATH FOUND
+Time = 38380 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 34 states
+Info:    Solution found in 0.936947 seconds
+PATH FOUND
+Time = 740 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 32 states
+Info:    Solution found in 0.824721 seconds
+PATH FOUND
+Time = 590 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 34 states
+Info:    Solution found in 0.870420 seconds
+PATH FOUND
+Time = 740 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 137 states
+Info:    Solution found in 4.158729 seconds
+PATH FOUND
+Time = 3790 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 344 states
+Info:    Solution found in 10.197896 seconds
+PATH FOUND
+Time = 9950 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 87 states
+Info:    Solution found in 3.279666 seconds
+PATH FOUND
+Time = 2500 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 44 states
+Info:    Solution found in 1.484977 seconds
+PATH FOUND
+Time = 1290 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 68 states
+Info:    Solution found in 2.601504 seconds
+PATH FOUND
+Time = 2040 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 75 states
+Info:    Solution found in 3.125749 seconds
+PATH FOUND
+Time = 2240 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	 rrt 11		 100000 0.05 0.1        0.001  
+- method=rrt
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=100000
+- rrt step size=0.05
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 22 states
+Info:    Solution found in 1.185454 seconds
+PATH FOUND
+Time = 430 ms 

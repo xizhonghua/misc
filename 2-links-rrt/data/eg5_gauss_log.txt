@@ -1,0 +1,713 @@
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 80662 states
+Info:    Solution found in 248.566036 seconds
+PATH FOUND
+Time = 80500 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 14112 states
+Info:    Solution found in 26.393229 seconds
+PATH FOUND
+Time = 8540 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 100060 states
+Info:    No solution found after 300.100814 seconds
+PATH NOT FOUND
+Time = 99280 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 41723 states
+Info:    Solution found in 111.565542 seconds
+PATH FOUND
+Time = 37040 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 25609 states
+Info:    Solution found in 54.208690 seconds
+PATH FOUND
+Time = 17830 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 84911 states
+Info:    Solution found in 238.007732 seconds
+PATH FOUND
+Time = 78690 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 77606 states
+Info:    Solution found in 214.353573 seconds
+PATH FOUND
+Time = 71040 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 64876 states
+Info:    Solution found in 170.615221 seconds
+PATH FOUND
+Time = 56070 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 91921 states
+Info:    No solution found after 300.093742 seconds
+PATH NOT FOUND
+Time = 90620 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 32841 states
+Info:    Solution found in 84.021466 seconds
+PATH FOUND
+Time = 24880 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 94341 states
+Info:    No solution found after 300.085605 seconds
+PATH NOT FOUND
+Time = 94720 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 27844 states
+Info:    Solution found in 63.591064 seconds
+PATH FOUND
+Time = 19740 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 115904 states
+Info:    Solution found in 259.087314 seconds
+PATH FOUND
+Time = 108590 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 135496 states
+Info:    Solution found in 272.513732 seconds
+PATH FOUND
+Time = 135510 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 37077 states
+Info:    Solution found in 87.842475 seconds
+PATH FOUND
+Time = 28520 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 35886 states
+Info:    Solution found in 72.888279 seconds
+PATH FOUND
+Time = 25380 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 127617 states
+Info:    No solution found after 300.109317 seconds
+PATH NOT FOUND
+Time = 124950 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 109180 states
+Info:    No solution found after 300.027615 seconds
+PATH NOT FOUND
+Time = 114490 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 29381 states
+Info:    Solution found in 68.410137 seconds
+PATH FOUND
+Time = 22070 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 90287 states
+Info:    Solution found in 280.158767 seconds
+PATH FOUND
+Time = 91590 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 40682 states
+Info:    Solution found in 99.533383 seconds
+PATH FOUND
+Time = 32220 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 58640 states
+Info:    Solution found in 149.206362 seconds
+PATH FOUND
+Time = 48520 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 77551 states
+Info:    Solution found in 225.604489 seconds
+PATH FOUND
+Time = 73180 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 53640 states
+Info:    Solution found in 118.733918 seconds
+PATH FOUND
+Time = 44140 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 64041 states
+Info:    Solution found in 186.718975 seconds
+PATH FOUND
+Time = 59350 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 50276 states
+Info:    Solution found in 146.722104 seconds
+PATH FOUND
+Time = 48340 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 130442 states
+Info:    No solution found after 300.056175 seconds
+PATH NOT FOUND
+Time = 130080 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 108873 states
+Info:    No solution found after 300.085776 seconds
+PATH NOT FOUND
+Time = 111940 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 51118 states
+Info:    Solution found in 133.587617 seconds
+PATH FOUND
+Time = 43540 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 102793 states
+Info:    No solution found after 300.144644 seconds
+PATH NOT FOUND
+Time = 110670 ms 
+./rrtd inputs/bugtrap2.txt 190 210 180 300  30 30 90 0  60 50 1 0 0 \
+	 gauss 11		 1000000 20 0.01 0.01
+- method=gauss
+- seed=11
+- start=(190,210,180,300)
+- goal=(30,30,90,0)
+- planner max sample size=1000000
+- gaussian mean d=0.01
+- gaussian std=0.01
+- l1=60
+- l2=50
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {190,210,3.13159,-1.0472}
+goal_cfg  = {30,30,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 102053 states
+Info:    No solution found after 300.095253 seconds
+PATH NOT FOUND
+Time = 102790 ms 

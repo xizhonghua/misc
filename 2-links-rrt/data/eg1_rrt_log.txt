@@ -1,0 +1,930 @@
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 8549 states
+Info:    Solution found in 19.244458 seconds
+PATH FOUND
+Time = 15600 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 11580 states
+Info:    Solution found in 21.306875 seconds
+PATH FOUND
+Time = 17130 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 13582 states
+Info:    Solution found in 30.073211 seconds
+PATH FOUND
+Time = 23170 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 7661 states
+Info:    Solution found in 17.768763 seconds
+PATH FOUND
+Time = 13060 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 13071 states
+Info:    Solution found in 37.317737 seconds
+PATH FOUND
+Time = 27480 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 7957 states
+Info:    Solution found in 17.258298 seconds
+PATH FOUND
+Time = 13290 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 9893 states
+Info:    Solution found in 29.995997 seconds
+PATH FOUND
+Time = 16340 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 7682 states
+Info:    Solution found in 23.648473 seconds
+PATH FOUND
+Time = 11550 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 14863 states
+Info:    Solution found in 63.711571 seconds
+PATH FOUND
+Time = 36840 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 9751 states
+Info:    Solution found in 22.632666 seconds
+PATH FOUND
+Time = 14890 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 7612 states
+Info:    Solution found in 22.976504 seconds
+PATH FOUND
+Time = 15910 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 5840 states
+Info:    Solution found in 15.679688 seconds
+PATH FOUND
+Time = 11420 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 11293 states
+Info:    Solution found in 26.431318 seconds
+PATH FOUND
+Time = 16910 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 11200 states
+Info:    Solution found in 30.276088 seconds
+PATH FOUND
+Time = 23050 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 13146 states
+Info:    Solution found in 28.369720 seconds
+PATH FOUND
+Time = 24390 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 25900 states
+Info:    Solution found in 60.078107 seconds
+PATH FOUND
+Time = 49510 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 6358 states
+Info:    Solution found in 13.546437 seconds
+PATH FOUND
+Time = 9020 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 25163 states
+Info:    Solution found in 53.789455 seconds
+PATH FOUND
+Time = 45970 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 8042 states
+Info:    Solution found in 25.641938 seconds
+PATH FOUND
+Time = 14500 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 13300 states
+Info:    Solution found in 25.809732 seconds
+PATH FOUND
+Time = 19270 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 8170 states
+Info:    Solution found in 17.813746 seconds
+PATH FOUND
+Time = 12560 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 8771 states
+Info:    Solution found in 32.030566 seconds
+PATH FOUND
+Time = 14170 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 11466 states
+Info:    Solution found in 21.116381 seconds
+PATH FOUND
+Time = 16340 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 11018 states
+Info:    Solution found in 21.282088 seconds
+PATH FOUND
+Time = 15810 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 7009 states
+Info:    Solution found in 33.762699 seconds
+PATH FOUND
+Time = 14470 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 14911 states
+Info:    Solution found in 40.299788 seconds
+PATH FOUND
+Time = 31180 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 11466 states
+Info:    Solution found in 39.394771 seconds
+PATH FOUND
+Time = 18670 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 7170 states
+Info:    Solution found in 17.389411 seconds
+PATH FOUND
+Time = 12010 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 10822 states
+Info:    Solution found in 23.649696 seconds
+PATH FOUND
+Time = 16730 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 11891 states
+Info:    Solution found in 28.315556 seconds
+PATH FOUND
+Time = 24010 ms 
+Target eg: Default
+./rrtd inputs/basic3.txt 195 340 0 150 \
+	    260 80 70 120 \
+	    50 80   1 \
+	    0 0 rrt 11		 \
+	    100000 0.001      0.1        0.001 
+- method=rrt
+- seed=11
+- start=(195,340,0,150)
+- goal=(260,80,70,120)
+- planner max sample size=100000
+- rrt step size=0.001
+- rrt goal bias=0.1
+- rrt close to goal=0.001
+- l1=50
+- l2=80
+- scale=1
+- delta X,Y=0, 0
+input read!
+start_cfg = {195,340,0,2.61799}
+goal_cfg  = {260,80,1.22173,2.0944}
+robot inited!
+rrt range = 0
+Debug:   RRT: Planner range detected to be 151.728960
+time_limit = 300
+Info:    RRT: Starting with 1 states
+Info:    RRT: Created 7932 states
+Info:    Solution found in 22.882502 seconds
+PATH FOUND
+Time = 11070 ms 

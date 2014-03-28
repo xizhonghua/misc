@@ -1,0 +1,682 @@
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 330 states
+Info:    Solution found in 0.248904 seconds
+PATH FOUND
+Time = 80 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 2748 states
+Info:    Solution found in 1.339689 seconds
+PATH FOUND
+Time = 620 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 389 states
+Info:    Solution found in 0.318696 seconds
+PATH FOUND
+Time = 100 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 310 states
+Info:    Solution found in 0.267345 seconds
+PATH FOUND
+Time = 80 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 324 states
+Info:    Solution found in 0.309807 seconds
+PATH FOUND
+Time = 100 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 788 states
+Info:    Solution found in 0.536967 seconds
+PATH FOUND
+Time = 170 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 939 states
+Info:    Solution found in 0.540959 seconds
+PATH FOUND
+Time = 190 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 294 states
+Info:    Solution found in 0.242297 seconds
+PATH FOUND
+Time = 80 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 510 states
+Info:    Solution found in 0.400977 seconds
+PATH FOUND
+Time = 160 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 439 states
+Info:    Solution found in 0.392920 seconds
+PATH FOUND
+Time = 120 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 306 states
+Info:    Solution found in 0.259760 seconds
+PATH FOUND
+Time = 80 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 1015 states
+Info:    Solution found in 0.691199 seconds
+PATH FOUND
+Time = 210 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 283 states
+Info:    Solution found in 0.211385 seconds
+PATH FOUND
+Time = 70 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 305 states
+Info:    Solution found in 0.280551 seconds
+PATH FOUND
+Time = 90 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 1299 states
+Info:    Solution found in 0.814432 seconds
+PATH FOUND
+Time = 280 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 366 states
+Info:    Solution found in 0.289136 seconds
+PATH FOUND
+Time = 80 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 1512 states
+Info:    Solution found in 0.832702 seconds
+PATH FOUND
+Time = 340 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 498 states
+Info:    Solution found in 0.412286 seconds
+PATH FOUND
+Time = 140 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 491 states
+Info:    Solution found in 0.362284 seconds
+PATH FOUND
+Time = 140 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 301 states
+Info:    Solution found in 0.229257 seconds
+PATH FOUND
+Time = 70 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 350 states
+Info:    Solution found in 0.282339 seconds
+PATH FOUND
+Time = 80 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 406 states
+Info:    Solution found in 0.278312 seconds
+PATH FOUND
+Time = 100 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 223 states
+Info:    Solution found in 0.155184 seconds
+PATH FOUND
+Time = 50 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 238 states
+Info:    Solution found in 0.177011 seconds
+PATH FOUND
+Time = 60 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 570 states
+Info:    Solution found in 0.435637 seconds
+PATH FOUND
+Time = 140 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 250 states
+Info:    Solution found in 0.177396 seconds
+PATH FOUND
+Time = 60 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 283 states
+Info:    Solution found in 0.222739 seconds
+PATH FOUND
+Time = 70 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 309 states
+Info:    Solution found in 0.220718 seconds
+PATH FOUND
+Time = 80 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 1043 states
+Info:    Solution found in 0.771989 seconds
+PATH FOUND
+Time = 260 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 2461 states
+Info:    Solution found in 1.606505 seconds
+PATH FOUND
+Time = 740 ms 
+./rrtd inputs/2chambers.txt 415 400 180 270   105 90 90 0   65 80   0.065 -220 0 \
+	prm 11		 1000000 20 0.01 0.01
+- method=prm
+- seed=11
+- start=(415,400,180,270)
+- goal=(105,90,90,0)
+- planner max sample size=1000000
+- prm connection k=20
+- l1=65
+- l2=80
+- scale=0.065
+- delta X,Y=-220, 0
+input read!
+start_cfg = {415,400,3.13159,-1.5708}
+goal_cfg  = {105,90,1.5708,0}
+robot inited!
+time_limit = 300
+Info:    PRM: Starting with 2 states
+Info:    PRM: Created 2160 states
+Info:    Solution found in 1.270909 seconds
+PATH FOUND
+Time = 520 ms 
