@@ -350,6 +350,7 @@ int main(int argc, char** argv)
 			return 1;
 
 		ss.setup();
+
 		//ss.print();
 
 		double time_limit = 10;	//10s default
