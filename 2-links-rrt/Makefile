@@ -90,7 +90,7 @@ OMPL_INCL = -I${OMPL_DIR}
 ifeq ($(PLATFORM),MAC_OS_X)
     OMPL_LIB = -L${OMPL_DIR}/osx -lompl -L/opt/local/lib/ -lboost_system-mt
 else 
-    OMPL_LIB = -lompl
+    OMPL_LIB = -L${OMPL_DIR}/linux64 -lompl
 endif
 
 #--------------------------------------------------------------------
