@@ -45,6 +45,12 @@ endif
 CXX      = g++
 LINK     = g++
 
+ifeq ($(PLATFORM),MAC_OS_X)
+    CXX     = clang++
+    LINK    = clang++
+endif
+
+
 OPTS = -MMD -Wall -Wno-deprecated -std=c++11
 ifeq ($(PLATFORM),MAC_OS_X)
  OPTS += -DMACOS
@@ -79,20 +85,26 @@ endif
 #--------------------------------------------------------------------
 # OMPL
 #--------------------------------------------------------------------
-OMPL_LIB = -lompl
+OMPL_DIR  = ./lib/ompl
+OMPL_INCL = -I${OMPL_DIR}
+ifeq ($(PLATFORM),MAC_OS_X)
+    OMPL_LIB = -L${OMPL_DIR}/osx -lompl -L/opt/local/lib/ -lboost_system-mt
+else 
+    OMPL_LIB = -lompl
+endif
 
 #--------------------------------------------------------------------
 # Put all together
 #--------------------------------------------------------------------
 TARGET  = rrtd
 SUBDIRS = . ./GL ./mathtool ./utils ./FIST
-INCLUDE = $(addprefix -I,$(SUBDIRS)) $(TRI_INCL)
+INCLUDE = -I/opt/local/include $(addprefix -I,$(SUBDIRS)) $(TRI_INCL) $(OMPL_INCL)
 SRCS=$(wildcard $(addsuffix /*.cpp,$(SUBDIRS)))
 OBJS=${SRCS:.cpp=.o}
 LIB = $(X_LIB) $(GL_LIB) $(TRI_LIB) $(OMPL_LIB)
 
 CFLAGS   = $(OPTS) $(INCLUDE)
-CXXFLAGS = $(CFLAGS) $(DFLAGS) -O3
+CXXFLAGS = $(CFLAGS) $(DFLAGS)
 
 
 #=================================================

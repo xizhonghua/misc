@@ -42,6 +42,44 @@ var PAD = 20;
 		}
 	}
 	
+	// =================================================================
+	// data structure
+	// =================================================================
+	var Intersection;
+	
+	Intersection.intersectLineLine = function(a1, a2, b1, b2) {
+	    var result;
+	    
+	    var ua_t = (b2.x - b1.x) * (a1.y - b1.y) - (b2.y - b1.y) * (a1.x - b1.x);
+	    var ub_t = (a2.x - a1.x) * (a1.y - b1.y) - (a2.y - a1.y) * (a1.x - b1.x);
+	    var u_b  = (b2.y - b1.y) * (a2.x - a1.x) - (b2.x - b1.x) * (a2.y - a1.y);
+	
+	    if ( u_b != 0 ) {
+	        var ua = ua_t / u_b;
+	        var ub = ub_t / u_b;
+	
+	        if ( 0 <= ua && ua <= 1 && 0 <= ub && ub <= 1 ) {
+	            result = new Point(
+	                    a1.x + ua * (a2.x - a1.x),
+	                    a1.y + ua * (a2.y - a1.y)
+	                );
+	        } else {
+	            //No Intersection;
+	            return null;
+	        }
+	    } else {
+	        if ( ua_t == 0 || ub_t == 0 ) {
+	            // Coincident
+	            return null;
+	        } else {
+	            // Parallel
+	            return null;
+	        }
+	    }
+	
+	    return result;
+	};
+	
 	function Point(x, y) {
 		this.x = x;
 		this.y = y;
@@ -93,17 +131,30 @@ var PAD = 20;
 		this.angle = angle || this.angle;
 	}
 	
-	Crease.prototype.dist = function(pt) {
-		var v1a = pt.clone().sub(this.v1).normalize();
-		var v1b = this.v2.clone().sub(this.v1).normalize();
-		var d1 = Math.acos(v1a.dot(v1b));
+	Crease.prototype = {
 		
-		var v2a = pt.clone().sub(this.v2).normalize();
-		var v2b = this.v1.clone().sub(this.v2).normalize();
-		var d2 = Math.acos(v2a.dot(v2b));
+		dist : function(pt) {
+			var v1a = pt.clone().sub(this.v1).normalize();
+			var v1b = this.v2.clone().sub(this.v1).normalize();
+			var d1 = Math.acos(v1a.dot(v1b));
+			
+			var v2a = pt.clone().sub(this.v2).normalize();
+			var v2b = this.v1.clone().sub(this.v2).normalize();
+			var d2 = Math.acos(v2a.dot(v2b));
+			
+			return d1 > d2 ? d1 : d2;
+		},
 		
-		return d1 > d2 ? d1 : d2;
+		/**
+		 * check whether two crease intersects
+ 		 * @param {Crease} c
+		 */
+		intersect : function(c) {
+			return Intersection.intersectLineLine(this.v1, this.v2, c.v1, c.v2);
+		}
 	}
+	
+	// =================================================================
 	
 	function writeMessage(message) {
 		$("#div-pos").html(message);
@@ -171,6 +222,12 @@ var PAD = 20;
     	vertices.push(v2);
     	var c = new Crease(type, v1, v2);
     	creases.push(c);
+    	for(var i=0;i<creases.length-1;i++) {
+    		var itersection = creases[i].intersect(c);
+    		if(itersection) {
+    			console.log("intersection " + c);
+    		}
+    	}
     	
     	saveCP();
     }
