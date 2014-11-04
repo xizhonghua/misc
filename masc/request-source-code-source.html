@@ -3,7 +3,7 @@
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 </head>
 <body>
-<iframe id="req-form" src="https://docs.google.com/forms/d/1jShmwCRsdlbXT0_rRnQDb6p6jOAp5Jm9w6ohVtS6IiQ/viewform?embedded=true" width="760" height="582" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe id="req-form" src="" width="900" height="660" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 <div>
 <script type="text/javascript">
@@ -161,7 +161,11 @@ $(document).ready(function(){
 	
 	var loaded = 0;
 	var filename = Base64.decode(getParameterByName("file"));
+
+	var project = getParameterByName("project") || "MASC";
+	var url = "https://docs.google.com/forms/d/1jShmwCRsdlbXT0_rRnQDb6p6jOAp5Jm9w6ohVtS6IiQ/viewform?embedded=true&entry.1208545522=" + project;
 	
+	$("#req-form").attr("src", url);
 	
 	function redirect(){
 		window.location = Base64.decode("aHR0cDovL21hc2MuY3MuZ211LmVkdS93aWtpL3VwbG9hZHMv") + filename;
