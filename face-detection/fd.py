@@ -2,8 +2,9 @@
 import cv2
 import sys
 
-cascPath = "haarcascade_frontalface_default.xml"
-faceCascade = cv2.CascadeClassifier(cascPath)
+faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+eyeCascade = cv2.CascadeClassifier("haarcascade_eye_tree_eyeglasses.xml")
+
 
 video_capture = cv2.VideoCapture(0)
 
@@ -22,7 +23,21 @@ while True:
     )
 
     # Draw a rectangle around the faces
-    for (x, y, w, h) in faces:
+    for (x,y,w,h) in faces:
+
+        faceImg = gray[y:y+h, x:x+w]
+
+        eyes = eyeCascade.detectMultiScale(
+            faceImg,
+            scaleFactor=1.1,
+            minNeighbors=5,
+            minSize=(5, 5),
+            flags=cv2.cv.CV_HAAR_SCALE_IMAGE       
+        )
+
+        for (ex, ey, ew, eh) in eyes:
+            cv2.rectangle(frame, (ex+x, ey+y), (ex+ew+x, ey+eh+y), (255, 0, 0), 2)            
+
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
     # Display the resulting frame
