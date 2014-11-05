@@ -4,11 +4,11 @@ import random
 
 with open('result.txt', 'a') as output:
     for k in range(1,10000):
-        i = random.randint(0, 1000000000)
-        os.system('(echo "GET /search?q=' + str(i) + '" ; sleep 1) | telnet www.google.com 80 > tmp')
+        i = random.randint(0, 1e7)
+        os.system('(echo "GET /search?q=' + str(i) + '" ; sleep 1) | telnet www.google.com 443 > tmp')
         with open('tmp', 'r') as f:
             data = f.read()
-        os.system('rm tmp; sleep 0.1')
+        os.system('sleep 2')
 
         s = data.find('>About')
         t = data.find('results<', s)
