@@ -4,7 +4,7 @@ import random
 
 with open('result.txt', 'a') as output:
     for k in range(1,10000):
-        i = random.randint(1e5, 1e6)
+        i = random.randint(1e9, 1e10)
         os.system('(echo "GET /search?q=' + str(i) + '" ; sleep 1) | telnet www.google.com 80 > tmp')
         with open('tmp', 'r') as f:
             data = f.read()
