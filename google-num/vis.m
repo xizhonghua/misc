@@ -13,6 +13,8 @@ set(gca, 'XScale', 'log');
 xlabel('X');
 ylabel('Google(X)');
 
+grid on;
+
 print('-depsc', 'google-num');
 
 exit(0);
