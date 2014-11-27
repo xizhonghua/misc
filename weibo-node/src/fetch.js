@@ -1,8 +1,9 @@
 var Weibo = require('../libs/node-weibo');
+var token = require('./token.json')
 
 var para = {
     "source": Weibo.appKey.appKey,
-    "access_token": '2.00TJcBpB5BbcAD48f37bbcf8mTCcrC'
+    "access_token": token.access_token
 };
 
 console.log(para);
