@@ -1,6 +1,11 @@
 
 var Weibo = require('nodeweibo');
+var setting = require('./seeting.json')
 
+/*
+    initialize weibo before using it
+ */
+Weibo.init(setting);
 
 /*
 +-------------------------------------------------
@@ -41,5 +46,21 @@ Weibo.authorize();
 // };
 
 // Weibo.OAuth2.access_token(jsonParas,function(data){
+//     console.log(data);
+// });
+
+
+/*
+    example 3, get public timeline
+ */
+
+// // set parameters
+// var para = {
+//     "source": Weibo.appKey.appKey,
+//     "access_token": 'your access_token here'
+// };
+
+// // get public timeline
+// Weibo.Statuses.public_timeline(para, function(data){
 //     console.log(data);
 // });

@@ -1,5 +1,10 @@
 var Weibo = require('../libs/node-weibo');
-var token = require('./token.json')
+var setting = require('./setting.json');
+var token = require('./token.json');
+
+// init app keys
+Weibo.init(setting);
+
 
 var para = {
     "source": Weibo.appKey.appKey,
