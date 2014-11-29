@@ -1,4 +1,4 @@
-var Weibo = require('../libs/node-weibo');
+var Weibo = require('./myweibo.js');
 
 var jsonParas = {
     code:"96b571d1f5e0e92dbc82f0f107620ee1",

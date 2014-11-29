@@ -1,3 +1,3 @@
-var Weibo = require('../libs/node-weibo');
+var Weibo = require('./myweibo.js');
 
 Weibo.authorize();
